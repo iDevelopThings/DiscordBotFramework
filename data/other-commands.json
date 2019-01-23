@@ -1,0 +1,212 @@
+[
+  {
+    "command": "think",
+    "type": "image",
+    "content": "http://i1.kym-cdn.com/entries/icons/original/000/022/138/reece.JPG"
+  },
+  {
+    "command": "thisisfine",
+    "type": "image",
+    "content": "https://img.memesuper.com/217940d582750676faa4c99ad9912647_the-this-is-fine-meme-is-a-meme-dog-fire_580-282.png"
+  },
+  {
+    "command": "wat",
+    "type": "image",
+    "content": "https://cdn.discordapp.com/attachments/172425169527111680/302825161168781322/wat.png"
+  },
+  {
+    "command": "tecno",
+    "type": "text",
+    "content": "Hail tecno <:miniK:231212925631725569>"
+  },
+  {
+    "command": "satan",
+    "type": "image",
+    "content": "https://cdn.discordapp.com/attachments/272645699340861440/300158394189479946/satan3.jpg"
+  },
+  {
+    "command": "comeatme",
+    "type": "image",
+    "content": "http://i3.kym-cdn.com/photos/images/newsfeed/000/132/663/1307737417001.jpg"
+  },
+  {
+    "command": "hacker",
+    "type": "image",
+    "content": "https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif"
+  },
+  {
+    "command": "strum",
+    "type": "image",
+    "content": "http://i.imgur.com/71AHIYd.png"
+  },
+  {
+    "command": "staph",
+    "type": "image",
+    "content": "https://i.imgflip.com/1nqrdv.jpg"
+  },
+  {
+    "command": "zone",
+    "type": "image",
+    "content": "https://media1.giphy.com/media/5ntdy5Ban1dIY/giphy.gif"
+  },
+  {
+    "command": "forum",
+    "type": "image",
+    "content": "https://cdn.discordapp.com/attachments/172425169527111680/307633986220326923/download.jpg"
+  },
+  {
+    "command": "boletriggered",
+    "type": "image",
+    "content": "https://cdn.discordapp.com/attachments/172425169527111680/309080980805779456/triggered.gif"
+  },
+  {
+    "command": "tecnoman",
+    "type": "text",
+    "content": "\\ <:MingLee:231212925514153984> /\n      |\n   /  \\"
+  },
+  {
+    "command": "strum2",
+    "type": "text",
+    "content": "🇸 🇦 🇲 🇲 🇪 🇭    🇼 🇭 🇪 🇳    🇸 🇹 🇷 🇺 🇲"
+  },
+  {
+    "command": "ples",
+    "type": "image",
+    "content": "http://i.d3vlink.com/raw/9b076d94-28a6-4de0-9ca2-c03da0b3f5bf.png"
+  },
+  {
+    "command": "/unflip",
+    "type": "text",
+    "content": "┬─┬ ノ( ゜-゜ノ)"
+  },
+  {
+    "command": "unflip",
+    "type": "text",
+    "content": "┬─┬ ノ( ゜-゜ノ)"
+  },
+  {
+    "command": "!ples",
+    "type": "image",
+    "content": "https://cdn.discordapp.com/attachments/172425169527111680/343812669381541898/f2a01cb0-5a46-448e-8651-d560d63aaad0.png"
+  },
+  {
+    "command": "!plesples",
+    "type": "image",
+    "content": "https://cdn.discordapp.com/attachments/172425169527111680/343812669381541898/f2a01cb0-5a46-448e-8651-d560d63aaad0.png"
+  },
+  {
+    "command": "plesples",
+    "type": "image",
+    "content": "https://cdn.discordapp.com/attachments/172425169527111680/343812669381541898/f2a01cb0-5a46-448e-8651-d560d63aaad0.png"
+  },
+  {
+    "command": "strum3",
+    "type": "image",
+    "content": "https://cdn.discordapp.com/attachments/172425169527111680/343862157571784715/b8555e9f-818c-4261-ab5e-a39e78040f93.png"
+  },
+  {
+    "command": "plesplesples",
+    "type": "image",
+    "content": "https://cdn.discordapp.com/attachments/172425169527111680/345892291417866241/59f3123f-7bd5-4ccf-b2db-3f4d6b2ef109.png"
+  },
+  {
+    "command": "sammeh",
+    "type": "image",
+    "content": "https://shotsaver.idevelopthings.com/uploads/HNfGpekxh0jRq1ps.png"
+  },
+  {
+    "command": "prosam",
+    "type": "text",
+    "content": "\\ <:miniK:231212925631725569> /\n      |\n   / ' \\"
+  },
+  {
+    "command": "github",
+    "type": "text",
+    "content": "https://github.com/ScooterSam"
+  },
+  {
+    "command": "rave",
+    "type": "image",
+    "content": "https://media0.giphy.com/media/9YlhdI9SSP0Qw/giphy.gif"
+  },
+  {
+    "command": "alarm",
+    "type": "text",
+    "content": "<@139568535625007104>"
+  },
+  {
+    "command": "coffee",
+    "type": "text",
+    "content": "https://www.youtube.com/watch?v=Q1lYo7gXuhg"
+  },
+  {
+    "command": "window",
+    "type": "text",
+    "content": "https://giphy.com/gifs/filmeditor-bye-abandon-thread-3oKHWvUUMPQhCOCT72"
+  },
+  {
+    "command": "window2",
+    "type": "text",
+    "content": "https://giphy.com/gifs/nickelodeon-school-of-rock-xTiQyja6s86ktPLRcI"
+  },
+  {
+    "command": "aids",
+    "type": "text",
+    "content": "https://giphy.com/gifs/aids-s1TDFclQdhTtm"
+  },
+  {
+    "command": "plesplesplesples",
+    "type": "image",
+    "content": "https://shotsaver.idevelopthings.com/file/I4AY5ZbXjfvjXv75"
+  },
+  {
+    "command": "riot",
+    "type": "text",
+    "content": "https://m.imgur.com/qy5rnRb?r"
+  },
+  {
+    "command": "woo",
+    "type": "text",
+    "content": "\\ <:PogChamp:231212926415929364> /\n\\ <:idevelSuck:342336097646411786> /"
+  },
+  {
+    "command": "gay",
+    "type": "image",
+    "content": "https://media.giphy.com/media/GaeSaXCnU2twY/giphy.gif"
+  },
+  {
+    "command": "monkaS",
+    "type": "text",
+    "content": "https://cdn.frankerfacez.com/emoticon/130762/4"
+  },
+  {
+    "command": "tecnobot",
+    "type": "text",
+    "content": "<@172033311592415232> https://memegenerator.net/img/instances/500x/80879558/y-u-no-use-tecnobot.jpg"
+  },
+  {
+    "command": "cancer",
+    "type": "text",
+    "content": "https://giphy.com/gifs/love-john-green-the-fault-in-our-stars-qH79OCAZBJg64"
+  },
+  {
+    "command": "triggered",
+    "type": "image",
+    "content": "https://shotsaver.idevelopthings.com/uploads/tDKlqymV6sBtPQ83.gif"
+  },
+  {
+    "command": "!mp",
+    "type": "text",
+    "content": "list"
+  },
+  {
+    "command": "mplist",
+    "type": "text",
+    "content": "!mp list"
+  },
+  {
+    "command": "tecnotwitter",
+    "type": "text",
+    "content": "https://twitter.tecnology.com.au/"
+  }
+]
