@@ -1,5 +1,17 @@
 {
-  "private": true,
+  "name": "sammeh-discord-bot-framework",
+  "version": "0.0.2",
+  "description": "A simple discord.js bot framework",
+  "main": "Server.js",
+  "author": "itsmrsammeh",
+  "tags": [
+    "discord",
+    "discordjs",
+    "discord-bot-framework",
+    "discord-framework",
+    "discord-bot",
+    "bot"
+  ],
   "scripts": {
     "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -9,15 +21,12 @@
   },
   "devDependencies": {
     "axios": "^0.18.0",
-    "bootstrap-sass": "^3.4.0",
     "cross-env": "^3.2.3",
-    "jquery": "^3.1.1",
-    "laravel-mix": "^0.8.3",
-    "lodash": "^4.17.11",
-    "vue": "^2.5.22"
+    "lodash": "^4.17.11"
   },
   "dependencies": {
     "chokidar": "^2.0.4",
+    "commander": "^2.19.0",
     "dgram": "^1.0.1",
     "discord.js": "^11.4.2",
     "discord.js-music": "^2.1.0",

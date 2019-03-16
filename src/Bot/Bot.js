@@ -47,11 +47,12 @@ class Bot {
 		let services = Object.assign(
 			requireAll(process.cwd() + '/App/Services'),
 			{
-				FileServiceProvider    : require(process.cwd() + '/src/Bot/Services/FileServiceProvider'),
-				ConfigServiceProvider  : require(process.cwd() + '/src/Bot/Services/ConfigServiceProvider'),
-				HandlerServiceProvider : require(process.cwd() + '/src/Bot/Services/HandlerServiceProvider'),
-				CommandServiceProvider : require(process.cwd() + '/src/Bot/Services/CommandServiceProvider'),
-				EventServiceProvider   : require(process.cwd() + '/src/Bot/Services/EventServiceProvider'),
+				FileServiceProvider        : require(process.cwd() + '/src/Bot/Services/FileServiceProvider'),
+				ConfigServiceProvider      : require(process.cwd() + '/src/Bot/Services/ConfigServiceProvider'),
+				HandlerServiceProvider     : require(process.cwd() + '/src/Bot/Services/HandlerServiceProvider'),
+				CommandServiceProvider     : require(process.cwd() + '/src/Bot/Services/CommandServiceProvider'),
+				EventServiceProvider       : require(process.cwd() + '/src/Bot/Services/EventServiceProvider'),
+				CliHandlingServiceProvider : require(process.cwd() + '/src/Bot/Services/CliHandlingServiceProvider'),
 			},
 			servicesFromConfig,
 		);
@@ -80,7 +81,9 @@ class Bot {
 	 * @returns {*|StreamDispatcher|EventDispatcher}
 	 */
 	get dispatcher()
-	{ return this.service('Event').dispatcher; }
+	{
+		return this.service('Event').dispatcher;
+	}
 
 	/**
 	 *
@@ -127,7 +130,9 @@ class Bot {
 	 * @returns {Array|Handler}
 	 */
 	get services()
-	{ return this._services; }
+	{
+		return this._services;
+	}
 
 	/**
 	 *
@@ -147,14 +152,18 @@ class Bot {
 	 * @returns {Array}
 	 */
 	get tasks()
-	{ return this._tasks; }
+	{
+		return this._tasks;
+	}
 
 	/**
 	 *
 	 * @param value
 	 */
 	set tasks(value)
-	{ this._tasks = value; }
+	{
+		this._tasks = value;
+	}
 
 	/**
 	 *
@@ -166,9 +175,15 @@ class Bot {
 		return this._tasks[name];
 	}
 
-	get commands() { return this._commands; }
+	get commands()
+	{
+		return this._commands;
+	}
 
-	set commands(value) { this._commands = value; }
+	set commands(value)
+	{
+		this._commands = value;
+	}
 
 }
 

@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const Cli = require('./src/Bot/Cli/Cli');
+
+let cliHandler = new Cli();
+
+cliHandler.startParsing();
