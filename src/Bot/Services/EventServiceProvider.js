@@ -25,7 +25,7 @@ class EventServiceProvider extends ServiceProvider {
 	async loadDiscordEvents()
 	{
 		let events = this.instance.services.FileServiceProvider
-			.loadAndFlattenFiles(process.cwd() + '/src/Bot/Events/Discord');
+			.loadAndFlattenFiles(__dirname + '/../Events/Discord');
 
 		for (let e in events) {
 			let event     = new events[e](this.bot, this.instance);
@@ -61,7 +61,7 @@ class EventServiceProvider extends ServiceProvider {
 	async loadAppEvents()
 	{
 		let events = this.instance.services.FileServiceProvider
-			.loadAndFlattenFiles(process.cwd() + '/src/Bot/Events/App');
+			.loadAndFlattenFiles(__dirname + '/../Events/App');
 
 		for (let e in events) {
 			let event     = new events[e](this.bot, this.instance);

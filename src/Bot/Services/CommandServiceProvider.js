@@ -17,7 +17,7 @@ class CommandServiceProvider extends ServiceProvider {
 	{
 		let commandsClasses = this.instance.services.FileServiceProvider
 			.loadForFrameworkAndBase(
-				process.cwd() + '/src/Bot/Commands',
+				__dirname + '/../Commands',
 				process.cwd() + '/App/Commands',
 			);
 
