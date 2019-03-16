@@ -47,12 +47,12 @@ class Bot {
 		let services = Object.assign(
 			requireAll(process.cwd() + '/App/Services'),
 			{
-				FileServiceProvider        : require(process.cwd() + '/src/Bot/Services/FileServiceProvider'),
-				ConfigServiceProvider      : require(process.cwd() + '/src/Bot/Services/ConfigServiceProvider'),
-				HandlerServiceProvider     : require(process.cwd() + '/src/Bot/Services/HandlerServiceProvider'),
-				CommandServiceProvider     : require(process.cwd() + '/src/Bot/Services/CommandServiceProvider'),
-				EventServiceProvider       : require(process.cwd() + '/src/Bot/Services/EventServiceProvider'),
-				CliHandlingServiceProvider : require(process.cwd() + '/src/Bot/Services/CliHandlingServiceProvider'),
+				FileServiceProvider        : require(__dirname + '/src/Bot/Services/FileServiceProvider'),
+				ConfigServiceProvider      : require(__dirname + '/src/Bot/Services/ConfigServiceProvider'),
+				HandlerServiceProvider     : require(__dirname + '/src/Bot/Services/HandlerServiceProvider'),
+				CommandServiceProvider     : require(__dirname + '/src/Bot/Services/CommandServiceProvider'),
+				EventServiceProvider       : require(__dirname + '/src/Bot/Services/EventServiceProvider'),
+				CliHandlingServiceProvider : require(__dirname + '/src/Bot/Services/CliHandlingServiceProvider'),
 			},
 			servicesFromConfig,
 		);
