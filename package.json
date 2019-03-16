@@ -1,6 +1,6 @@
 {
   "name": "sammeh-discord-bot-framework",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A simple discord.js bot framework",
   "main": "index.js",
   "author": "itsmrsammeh",
