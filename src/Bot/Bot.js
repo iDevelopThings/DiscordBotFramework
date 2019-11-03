@@ -17,6 +17,8 @@ class Bot {
 		this._handlers = [];
 		this._commands = [];
 		this._tasks    = [];
+
+
 	}
 
 	async initiate()
