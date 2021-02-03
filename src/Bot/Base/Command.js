@@ -50,6 +50,11 @@ class Command {
 		return this._admin;
 	}
 
+	get roles()
+	{
+		return this._roles;
+	}
+
 	set admin(value)
 	{
 		this._admin = value;
@@ -69,6 +74,7 @@ class Command {
 		this._instance      = null;
 		this._params        = {};
 		this._allowedInDm   = false;
+		this._roles         = [];
 	}
 
 	handle()

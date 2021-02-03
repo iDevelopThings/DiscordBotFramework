@@ -47,10 +47,18 @@ class CommandsHandler extends Handler {
 			return;
 		}
 
-		if (command.class.admin) {
+		/*if (command.class.admin) {
 			let isAdmin = message.member.roles.find(val => (val.name === 'Administrator' || val.name === 'Owner' || val.name === 'Admin'));
 			if (!isAdmin) {
 				console.info(`[${command.class._admin ? 'ADMIN ' : ''}COMMAND] ${message.author.username}@${command.class._command} - Admin permissions required.`);
+				return;
+			}
+		}*/
+
+		if (command.class.roles.length) {
+			let hasRole = message.member.roles.cache.find(val => command.class.roles.includes(val.name));
+			if (!hasRole) {
+				console.info(`[PERMS REQUIRED] ${message.author.username}@${command.class._command} - User doesnt have any of these roles, ${command.class.roles.join(', ')}`);
 				return;
 			}
 		}

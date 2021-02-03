@@ -1,4 +1,6 @@
 const commander = require('commander');
+var fs          = require("fs");
+let _           = require('lodash');
 
 class Cli {
 
@@ -19,9 +21,40 @@ class Cli {
 				if (type !== 'bot' && type !== 'discord') {
 					type = 'bot';
 				}
+				let folderName = (type === 'bot' ? 'App' : 'Discord');
+				let fileName   = (_.replace(_.replace(name, 'Event', ''), 'event', ''));
 
-				console.log(`Created event: ${name} - ${type}`);
+				fs.readFile(__dirname + "/Templates/EventTemplate.tpl", function (err, buf) {
+					if (err) {
+						console.error(err);
+						return;
+					}
 
+					let writeTo = `${process.cwd()}/App/Events/${folderName}/${fileName}Event.js`;
+
+					let contents = buf.toString();
+
+					contents = _.replace(contents, '{className}', `${fileName}Event`);
+					contents = _.replace(contents, '{className}', `${fileName}Event`);
+
+					fs.writeFile(writeTo, contents, (err) => {
+						if (err) console.log(err);
+						console.info(`Successfully created "${fileName}Event" in: "/App/Events/${folderName}"`);
+					});
+				});
+
+			});
+
+		this.cli
+			.command('help')
+			.option('-h, --help ', 'Help?')
+			.action((name, options) => {
+				console.table([
+					{
+						command     : 'make:event [name] -t discord/bot',
+						description : 'Creates a new event listener for the bot',
+					},
+				]);
 			});
 
 		/**
