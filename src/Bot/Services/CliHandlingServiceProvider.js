@@ -11,13 +11,13 @@ class CliHandlingServiceProvider extends ServiceProvider {
 
 	async onBoot()
 	{
-		this.cliHandler = new cli();
-		this.cli        = this.cliHandler.cli;
+		//this.cliHandler = new cli();
+		//this.cli        = this.cliHandler.cli;
 	}
 
 	async afterBoot()
 	{
-		this.cliHandler.startParsing();
+		//this.cliHandler.startParsing();
 	}
 
 }
