@@ -12,7 +12,7 @@ class Bot {
 
 	constructor()
 	{
-		this._bot      = new Discord.Client();
+		this._bot      = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
 		this._services = [];
 		this._handlers = [];
 		this._commands = [];
